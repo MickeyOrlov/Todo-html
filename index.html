@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>testProgect</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="main-header wrapper">
+		<h1 class="main-title">
+			todos
+		</h1>
+	</header>
+	<main class="container wrapper">
+		<div class="top-wrap">
+			<form class="form">
+				<input class="search" type="text" name="search" placeholder="What needs to be done?">
+			</form>
+			<ul class="todo-list">
+				<li class="todo-item">
+					<input type="checkbox" name="first" id="choose-first" class="visually-hidden" >
+					<label for="choose-first">Купить маме цветы</label>
+					<span class="button">&times;</span>
+				</li>
+				<li class="todo-item">
+					<input type="checkbox" name="second" id="choose-second" class="visually-hidden">
+					<label for="choose-second">Подарить маме цветы</label>
+					<span class="button">&times;</span>
+				</li>
+				<li class="todo-item">
+					<input type="checkbox" name="third" id="choose-third" class="visually-hidden" >
+					<label for="choose-third">Купить хлеб</label>
+					<span class="button">&times;</span>
+				</li>
+			</ul>
+		</div>
+		<div class="wrap-footer">
+			<span>2 items left</span>
+			<ul class="footer-list">
+				<li class="footer-item">
+					<a href="#" class="footer-link">All</a>
+				</li>
+				<li class="footer-item">
+					<a href="#" class="footer-link">Active</a>
+				</li>
+				<li class="footer-item">
+					<a href="#" class="footer-link">Completed</a>
+				</li>
+			</ul>
+			<a href="#" class="footer-clear">Clear completed</a>
+		</div>
+	</main>
+</body>
+</html>
